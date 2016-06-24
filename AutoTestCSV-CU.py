@@ -6,13 +6,13 @@ import time
 import csv
 
 # CU Result json
-url = "http://192.168.1.27:8081/cu?UniqueID=123&UserID=Test&Text1="
+url = "http://192.168.1.125:8081/cu?UniqueID=123&UserID=100&Text1="
 
 i = 0
 # 测试文件需命名为Test.txt
-test_file = 'Test.txt'
+test_file = '对象星座.txt'
 # 测试结果文件为Output.csv
-output_file = 'TestOutput.csv'
+output_file = '对象星座.csv'
 
 with open(test_file) as f:
     with open(output_file, 'w') as out:
