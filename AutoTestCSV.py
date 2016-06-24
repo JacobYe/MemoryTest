@@ -5,22 +5,25 @@ import json
 import time
 import csv
 
-# 小影
+# # 小影
 # urlA = "http://mail.emotibot.com.cn:808/api/APP/chat2.php"
-# payload = {'wechatid': 'Test'}
+
+# # 范儿盒
+# urlA = "http://mail.emotibot.com.cn:8009/api/APP/chat2.php"
 
 # 小竹子
-urlA = "http://mail.emotibot.com.cn:8009/Emotibot/api/APP/chat2.php"
-payload = {'wechatid': 'Test', 'type':'text'}
+urlA = "http://mail.emotibot.com.cn:8010/api/APP/chat2.php"
+
+payload = {'wechatid': 'o7WYos9rD62Dx72mXgHE3rCXv31k', 'type': 'text'}
 
 # CU Result json
 url = "http://192.168.1.27:8081/cu?UniqueID=123&UserID=Test&Text1="
 
 i = 0
 # 测试文件需命名为Test.txt
-test_file = '年龄.txt'
+test_file = 'Test.txt'
 # 测试结果文件为Output.csv
-output_file = '年龄Output.csv'
+output_file = 'TestOutput.csv'
 
 with open(test_file) as f:
     with open(output_file, 'w') as out:

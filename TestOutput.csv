@@ -1,22 +1,36 @@
-我是哪里人？,展开地图查一查。,"type: hometown
+我是哪里人？,你忘记告诉小影了啦～那你的家乡在哪里呀？,"type: hometown
 subject: Test
 relation: 家乡
-entity: None
+entity: 南方
 score: 200
-candidateAnswer: 人家不知道呢～那你告诉小影好不好，你的家乡在哪里啊？
+candidateAnswer: 来让我无敌影掐指一算，哟，你是南方人啊哈哈~
+conflict: False
+","type: gender
+subject: Test
+relation: 性别
+entity: 女
+score: 90
+candidateAnswer: None
 conflict: False
 ","type: location
 subject: Test
 relation: 所在地
-entity: 
+entity: 敦煌
 score: 90
 candidateAnswer: None
 conflict: False
 "
-我喜欢姚明,我喜欢麦迪,"type: location
+我喜欢姚明,我喜欢麦迪,"type: gender
+subject: Test
+relation: 性别
+entity: 女
+score: 90
+candidateAnswer: None
+conflict: False
+","type: location
 subject: Test
 relation: 所在地
-entity: 
+entity: 敦煌
 score: 90
 candidateAnswer: None
 conflict: False
@@ -25,43 +39,57 @@ subject: Test
 relation: 喜欢
 entity: 姚明
 score: 90
-candidateAnswer: None
+candidateAnswer: 你之前有提起过，小影不小心记住了（吐舌头）
 conflict: False
 "
-我是谁,你是你，世界上的独一无二,"type: name
+我是谁,坏银，你也没告诉小影你的名字啊，那你到底叫啥？,"type: gender
+subject: Test
+relation: 性别
+entity: 女
+score: 90
+candidateAnswer: None
+conflict: False
+","type: name
 subject: Test
 relation: nickName
 entity: 王二妮吧
 score: 200
-candidateAnswer: 你是王二妮吧啊
+candidateAnswer: 你是我的王二妮吧啊~
 conflict: False
 ","type: location
 subject: Test
 relation: 所在地
-entity: 
+entity: 敦煌
 score: 90
 candidateAnswer: None
 conflict: False
 "
-我的家乡在哪里,上海可是一个非常大的城市呢。,"type: hometown
+我的家乡在哪里,你的家乡真好呢。,"type: gender
 subject: Test
-relation: 家乡
-entity: None
-score: 200
-candidateAnswer: 人家不知道呢～那你告诉小影好不好，你的家乡在哪里啊？
+relation: 性别
+entity: 女
+score: 90
+candidateAnswer: None
 conflict: False
 ","type: location
 subject: Test
 relation: 所在地
-entity: 
+entity: 敦煌
 score: 90
 candidateAnswer: None
 conflict: False
 "
-你喜欢巴萨，还是皇马？,小影都喜欢。,"type: location
+你喜欢巴萨，还是皇马？,我觉得巴萨必胜,"type: gender
+subject: Test
+relation: 性别
+entity: 女
+score: 90
+candidateAnswer: None
+conflict: False
+","type: location
 subject: Test
 relation: 所在地
-entity: 
+entity: 敦煌
 score: 90
 candidateAnswer: None
 conflict: False
