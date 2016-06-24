@@ -1,0 +1,68 @@
+我是哪里人？,展开地图查一查。,"type: hometown
+subject: Test
+relation: 家乡
+entity: None
+score: 200
+candidateAnswer: 人家不知道呢～那你告诉小影好不好，你的家乡在哪里啊？
+conflict: False
+","type: location
+subject: Test
+relation: 所在地
+entity: 
+score: 90
+candidateAnswer: None
+conflict: False
+"
+我喜欢姚明,我喜欢麦迪,"type: location
+subject: Test
+relation: 所在地
+entity: 
+score: 90
+candidateAnswer: None
+conflict: False
+","type: hobby
+subject: Test
+relation: 喜欢
+entity: 姚明
+score: 90
+candidateAnswer: None
+conflict: False
+"
+我是谁,你是你，世界上的独一无二,"type: name
+subject: Test
+relation: nickName
+entity: 王二妮吧
+score: 200
+candidateAnswer: 你是王二妮吧啊
+conflict: False
+","type: location
+subject: Test
+relation: 所在地
+entity: 
+score: 90
+candidateAnswer: None
+conflict: False
+"
+我的家乡在哪里,上海可是一个非常大的城市呢。,"type: hometown
+subject: Test
+relation: 家乡
+entity: None
+score: 200
+candidateAnswer: 人家不知道呢～那你告诉小影好不好，你的家乡在哪里啊？
+conflict: False
+","type: location
+subject: Test
+relation: 所在地
+entity: 
+score: 90
+candidateAnswer: None
+conflict: False
+"
+你喜欢巴萨，还是皇马？,小影都喜欢。,"type: location
+subject: Test
+relation: 所在地
+entity: 
+score: 90
+candidateAnswer: None
+conflict: False
+"
